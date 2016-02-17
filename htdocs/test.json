@@ -1,0 +1,23 @@
+[
+    {
+        "siteName":"yahoo",
+        "siteUrl":"http://www.yahoo.co.jp/",
+        "siteDescription":"Yahoo! Inc.（ヤフー）は、アメリカ合衆国のインターネット関連サービスの提供を行う企業であり、検索エンジンをはじめとしたポータルサイトの運営を主力事業としている。「Y!」と略されるときがある。",
+        "sitePW":"****",
+        "siteID":"****"
+    },
+    {
+        "siteName":"google",
+        "siteUrl":"https://www.google.co.jp/",
+        "siteDescription":"Google Inc.（グーグル）は、検索エンジン、クラウドコンピューティング、ソフトウェア、オンライン広告といったインターネット関連のサービスと製品を提供するアメリカ合衆国の多国籍企業である。収益の多くをアドワーズ（AdWords）と呼ばれるオンライン広告から得ている。",
+        "sitePW":"++++",
+        "siteID":"++++"
+    },
+    {
+        "siteName":"wikipedia",
+        "siteUrl":"https://ja.wikipedia.org/",
+        "siteDescription":"ウィキペディア（英: Wikipedia）は、ウィキメディア財団が運営しているインターネット百科事典[4]。コピーレフトなライセンスのもと、サイトにアクセス可能な誰もが無料で自由に編集に参加できる[4]。世界の各言語で展開されている。",
+        "sitePW":"----",
+        "siteID":"----"
+    }
+]
