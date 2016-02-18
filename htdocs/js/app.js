@@ -1,18 +1,18 @@
 "use strict";
 
 $(function() {
-    var $name = $('.site-name'),
-        $url = $('.site-url'),
-        $desc = $('.site-desc'),
-        $pw = $('.site-pw'),
-        $id = $('.site-id'),
+    var $name = $('.js-site-name'),
+        $url = $('.js-site-url'),
+        $desc = $('.js-site-description'),
+        $pw = $('.js-site-pw'),
+        $id = $('.js-site-id'),
         val,
         txt,
         num = 0;
 
     $('.select').on('change', function() {
         if ($(this).val() !== val) {
-            $('.site-name, .site-url, .site-description, .site-pw, .site-id').text("");
+            $('.pw-info td').text("");
             val = $(this).val();
             txt = $('.select option:selected').text();
             // console.log( val );
@@ -27,7 +27,7 @@ $(function() {
             dataType: 'json'
         })
         .done(function(data) {
-            for (var i = 0; i < $('option').length-1; i++) {
+            for (var i = 0; i < $('option').length; i++) {
                 num = i;
                 if (data[num].siteName === txt) {
                     console.log( num );
@@ -50,4 +50,7 @@ $(function() {
         //     console.log("complete");
         // });
     };
+    ajax();
+    console.log( window.$.expando );
+    console.log( window );
 });

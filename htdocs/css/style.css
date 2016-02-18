@@ -1,1 +1,20 @@
 @charset "UTF-8";
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+.pw-info {
+    border-collapse: collapse;
+}
+.pw-info th {
+    width: 100px;
+    padding: 5px;
+    border: 1px solid #000;
+}
+.pw-info td {
+    min-width: 200px;
+    max-width: 800px;
+    padding: 5px;
+    border: 1px solid #000;
+}

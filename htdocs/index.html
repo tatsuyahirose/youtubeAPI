@@ -38,19 +38,37 @@
 
 </head>
 <body>
-    <div class="">
+    <div class="wrapper">
         <select name="" id="" class="select">
             <!-- ※optionのtext値にはjsonのsite-nameと同じものを入れること -->
-            <option value=""></option>
             <option value="yahoo">yahoo</option>
             <option value="google">google</option>
             <option value="wikipedia">wikipedia</option>
         </select>
-        <p class="site-name"></p>
-        <p class="site-url"></p>
-        <p class="site-description"></p>
-        <p class="site-pw"></p>
-        <p class="site-id"></p>
+        <table class="pw-info">
+            <tbody>
+                <tr>
+                    <th class="title">サイト名</th>
+                    <td class="js-site-name"></td>
+                </tr>
+                <tr>
+                    <th class="title">サイトURL</th>
+                    <td class="js-site-url"></td>
+                </tr>
+                <tr>
+                    <th class="title">パスワード</th>
+                    <td class="js-site-pw"></td>
+                </tr>
+                <tr>
+                    <th class="title">ID</th>
+                    <td class="js-site-id"></td>
+                </tr>
+                <tr>
+                    <th class="title">サイトの説明</th>
+                    <td class="js-site-description"></td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 </body>
 </html>
